@@ -3,53 +3,161 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Barber Shop</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Faded By Cash — Stay Sharp, Look Legendary</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body>
+
   <!-- Navbar -->
-  <header class="navbar">
-    <div class="logo">✂️ Barber<span>Shop</span></div>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+  <nav class="navbar">
+    <div class="logo">Faded By Cash</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>Stay Sharp, Look Legendary</h1>
+        <p>Experience the ultimate grooming experience at BarberShop</p>
+        <a href="#services" class="btn">Book Your Appointment</a>
+      </div>
+    </div>
   </header>
 
-  <!-- Hero -->
-  <section class="hero">
-    <div class="hero-text">
-      <h1>Stay Sharp, Look Fresh</h1>
-      <p>Modern barbering with a classic touch</p>
-      <a href="services.html" class="btn">Book Now</a>
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <img src="images/haircut.jpg" alt="Haircut">
+        <h3>Haircut</h3>
+        <p>Classic and modern styles tailored just for you.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/shave.jpg" alt="Shave">
+        <h3>Shave</h3>
+        <p>Straight razor shaves with luxury grooming products.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/beard.jpg" alt="Beard Trim">
+        <h3>Beard Trim</h3>
+        <p>Perfectly sculpted beards that match your style.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/haircolor.jpg" alt="Hair Coloring">
+        <h3>Hair Coloring</h3>
+        <p>Bold or subtle, we provide expert coloring services.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/kidscut.jpg" alt="Kids Cut">
+        <h3>Kids Haircut</h3>
+        <p>Fun, safe, and stylish haircuts for children.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/facial.jpg" alt="Facial Treatment">
+        <h3>Facial Treatment</h3>
+        <p>Relaxing and rejuvenating skin treatments.</p>
+      </div>
     </div>
   </section>
 
-  <!-- Features -->
-  <section class="features">
-    <div class="feature">
-      <h2>💈 Precision Cuts</h2>
-      <p>Classic, modern, and everything in between.</p>
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-content">
+      <div class="about-text">
+        <h2>Why Men Choose Cash?</h2>
+          <p>Ever walked out of a barbershop, checked the mirror, and thought, “That’s not me”?  
+            I get it. Your time is VALUABLE, and your look is EVERYTHING. You deserve a barber who knows men’s style — someone who listens, understands your face shape, and makes sure you walk out ready to own the room.</p>
+
+          <p>At Faded by Cash, I don’t just cut hair — I craft confidence.  
+            Every session is tailored to you, from sharp fades to precision beard work.  
+            My mission is simple: make you look like the man you want to be.</p>
+        <ul>
+          <li>🔴 Experienced Barber</li>
+          <li>🔴 Premium Products</li>
+          <li>🔴 Clean & Hygienic Environment</li>
+          <li>🔴 Personalized Grooming</li>
+        </ul>
+        <a href="#contact" class="btn">Contact Us</a>
+      </div>
+      <div class="about-image">
+        <img src="assets/images/IMG_2088.jpg" alt="Barber at work">
+      </div>
     </div>
-    <div class="feature">
-      <h2>🪒 Hot Towel Shaves</h2>
-      <p>Relax and enjoy the finest grooming experience.</p>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <p>"Best haircut I've ever had. The team really listens and delivers!"</p>
+        <h4>- Michael T.</h4>
+      </div>
+      <div class="testimonial-card">
+        <p>"Top-notch service and a very welcoming environment."</p>
+        <h4>- James L.</h4>
+      </div>
+      <div class="testimonial-card">
+        <p>"I finally found a barber I trust for my beard and hair."</p>
+        <h4>- Alex R.</h4>
+      </div>
     </div>
-    <div class="feature">
-      <h2>⭐ Premium Service</h2>
-      <p>Professional, clean, and always on point.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-container">
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <h3>Visit Us</h3>
+        <p>123 Legendary Street, Dallas, TX</p>
+        <h3>Call Us</h3>
+        <p>(555) 123-4567</p>
+        <h3>Email</h3>
+        <p>info@barbershop.com</p>
+      </div>
     </div>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>© 2025 BarberShop. All rights reserved.</p>
+    <div class="footer-content">
+      <p>&copy; 2025 BarberShop. All Rights Reserved.</p>
+      <div class="socials">
+        <a href="#"><img src="images/instagram.svg" alt="Instagram"></a>
+        <a href="#"><img src="images/facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="images/twitter.svg" alt="Twitter"></a>
+      </div>
+    </div>
   </footer>
 
-  <script src="js/script.js"></script>
+  <!-- JS -->
+  <script src="script.js"></script>
 </body>
 </html>
