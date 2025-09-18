@@ -80,7 +80,7 @@ ul {
 ========================== */
 .hero {
   height: 100vh;
-  background: url('images/hero.jpg') center/cover no-repeat;
+  background: url('assets/images/image\ 1.jpg') center/cover no-repeat;
   position: relative;
   display: flex;
   align-items: center;
@@ -141,7 +141,7 @@ ul {
 .services h2 {
   font-size: 2.5rem;
   margin-bottom: 50px;
-  color: #f9b233;
+  color: #f93333;
   letter-spacing: 1px;
 }
 
@@ -235,38 +235,88 @@ ul {
 }
 
 /* ==========================
+   Testimonials SECTION
+========================== */
+
+/* ==========================
    TESTIMONIALS SECTION
 ========================== */
 .testimonials {
   padding: 100px 50px;
-  background: #111;
   text-align: center;
+  background: #111; /* matches services section */
 }
 
 .testimonials h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 50px;
-  color: #f9b233;
+  color: #f93333; /* same red as services heading */
+  letter-spacing: 1px;
 }
 
 .testimonial-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
 }
 
 .testimonial-card {
-  background: #222;
-  padding: 30px;
+  background: #222; /* matches service card background */
+  padding: 20px;
   border-radius: 10px;
-  font-style: italic;
   box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-  transition: 0.3s;
+  transition: 0.3s ease;
+  text-align: center;
 }
 
 .testimonial-card:hover {
   transform: translateY(-10px);
-  background: #333;
+  background: #333; /* hover effect matches service cards */
+}
+
+.testimonial-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.testimonial-card:hover img {
+  transform: scale(1.05);
+}
+
+.testimonial-card p {
+  font-size: 1rem;
+  color: #eee;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonial-card h4 {
+  font-weight: bold;
+  color: #f9b233; /* same gold as service card titles */
+}
+
+.booksy-button-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.booksy-btn {
+  background: #f93333;
+  color: white;
+  font-weight: bold;
+  padding: 0.8rem 1.8rem;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.booksy-btn:hover {
+  background: #d42a2a;
 }
 
 /* ==========================
