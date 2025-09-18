@@ -1,4 +1,4 @@
-echo "# 💈 Legendary Barber Shop Website  
+💈 Legendary Barber Shop Website  
 
 A modern, fully responsive barber shop website built with **HTML, CSS, and JavaScript**.  
 Designed to be sleek, fast, and mobile-friendly, giving visitors a smooth browsing experience.
