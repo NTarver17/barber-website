@@ -39,16 +39,6 @@ Designed to be sleek, fast, and mobile-friendly, giving visitors a smooth browsi
 
 --- 
 
-## 📸 Screenshots  
-
-### 💻 Desktop View  
-![Desktop View](assets/screenshots/desktop-view.png)
-
-### 📱 Mobile View  
-![Mobile View](assets/screenshots/mobile-view.png)
-
---- 
-
 ## 🎯 How to Use  
 
 1. Clone the repository:
